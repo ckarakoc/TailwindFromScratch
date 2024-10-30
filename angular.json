@@ -24,7 +24,13 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              {
+                "glob": "**/*",
+                "input": "src/app/sandbox/",
+                "output": "/sandbox/"
+              },
+              "src/app/sandbox/assets"
             ],
             "styles": [
               "src/styles.css"
