@@ -30,7 +30,8 @@
                 "input": "src/app/sandbox/",
                 "output": "/sandbox/"
               },
-              "src/app/sandbox/assets"
+              "src/app/sandbox/assets",
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
