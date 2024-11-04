@@ -33554,7 +33554,7 @@ var HomeComponent = class _HomeComponent {
   static \u0275fac = function HomeComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HomeComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 15, vars: 0, consts: [[1, "flex", "gap-3", "w-full", "h-full", "content-center", "bg-amber-600", "flex-wrap"], ["href", "/sandbox", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["href", "/email-subscribe", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["href", "/pricing-cards", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["href", "/product-modal", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["href", "/login-modal", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["href", "/image-gallery", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["href", "/clipboard", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"]], template: function HomeComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 15, vars: 0, consts: [[1, "flex", "gap-3", "w-full", "h-full", "content-center", "bg-amber-600", "flex-wrap"], ["href", "/TailwindFromScratch/sandbox", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["routerLink", "/email-subscribe", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["routerLink", "/pricing-cards", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["routerLink", "/product-modal", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["routerLink", "/login-modal", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["routerLink", "/image-gallery", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"], ["routerLink", "/clipboard", 1, "bg-amber-400", "m-auto", "py-1", "px-5", "text-center", "text-red-900", "font-bold", "border-4", "border-red-900", "hover:bg-amber-300"]], template: function HomeComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "a", 1);
       \u0275\u0275text(2, "Sandbox");
@@ -33578,10 +33578,10 @@ var HomeComponent = class _HomeComponent {
       \u0275\u0275text(14, "Clipboard");
       \u0275\u0275elementEnd()();
     }
-  }, styles: ["\n\n[_nghost-%COMP%] {\n  width: 100%;\n  height: 100%;\n}"] });
+  }, dependencies: [RouterLink], styles: ["\n\n[_nghost-%COMP%] {\n  width: 100%;\n  height: 100%;\n}"] });
 };
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src\\app\\home\\home.component.ts", lineNumber: 10 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src\\app\\home\\home.component.ts", lineNumber: 13 });
 })();
 
 // src/app/email-subscribe/email-subscribe.component.ts
