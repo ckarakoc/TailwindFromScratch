@@ -6,6 +6,7 @@ import { ProductModalComponent } from './product-modal/product-modal.component';
 import { LoginModalComponent } from './login-modal/login-modal.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ClipboardComponent } from './clipboard/clipboard.component';
 
 export const routes: Routes = [
   // The route 'sandbox/' is already in use, by static pages
@@ -16,5 +17,6 @@ export const routes: Routes = [
   { path: 'product-modal', component: ProductModalComponent },
   { path: 'login-modal', component: LoginModalComponent },
   { path: 'image-gallery', component: ImageGalleryComponent },
+  { path: 'clipboard', component: ClipboardComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
