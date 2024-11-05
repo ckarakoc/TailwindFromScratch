@@ -1,0 +1,252 @@
+<div id="loopstudio" class="">
+  <section id="hero" class="bg-[url('assets/loopstudio/images/desktop/image-hero.jpg')] bg-no-repeat bg-cover
+  md:bg-[url('assets/loopstudio/images/mobile/image-hero-mobile.jpg')] md:bg-center">
+    <div class="container mx-auto max-w-6xl px-6 py-12">
+      <nav class="flex items-center justify-between font-bold text-white">
+        <img src="assets/loopstudio/images/logo.svg" alt="Logo">
+
+        <div id="navMenu" class="hidden h-10 font-alata md:space-x-8 md:flex">
+          <div class="group">
+            <a href="#">About</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+          </div>
+
+          <div class="group">
+            <a href="#">Careers</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+          </div>
+
+          <div class="group">
+            <a href="#">Events</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+          </div>
+
+          <div class="group">
+            <a href="#">Products</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+          </div>
+
+          <div class="group">
+            <a href="#">Support</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+          </div>
+        </div>
+
+        <div class="md:hidden">
+          <button #menuBtn
+                  id="menu-btn"
+                  type="button"
+                  class="z-40 block hamburger focus:outline-none md:hidden"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div #menuDiv
+           id="menu"
+           class="absolute top-0 bottom-0 left-0 hidden min-h-screen w-screen flex-col self-end bg-black py-1 pt-40 pl-12 text-lg uppercase text-white space-y-3 md:hidden"
+      >
+        <a href="#" class="hover:text-pink-500">About</a>
+        <a href="#" class="hover:text-pink-500">Careers</a>
+        <a href="#" class="hover:text-pink-500">Events</a>
+        <a href="#" class="hover:text-pink-500">Products</a>
+        <a href="#" class="hover:text-pink-500">Support</a>
+      </div>
+
+      <div class="mt-32 mb-32 max-w-lg border-2 p-4 font-sans text-4xl uppercase text-white md:m-32 md:mx-0 md:p-10 md:text-6xl">Impressive experiences that deliver</div>
+    </div>
+  </section>
+
+  <section id="feature">
+    <div class="container relative mx-auto my-32 flex max-w-6xl flex-col px-6 text-gray-900 md:flex-row md:px-0">
+      <img src="assets/loopstudio/images/desktop/image-interactive.jpg" alt="">
+
+      <div class="top-48 bg-white pr-0 md:absolute md:right-0 md:py-20 md:pl-20">
+        <h2 class="mt-10 mb-6 max-w-lg text-center font-sans text-4xl uppercase text-gray-900 md:mt-0 md:text-left md:text-5xl">
+          The leader in interactive VR
+        </h2>
+
+        <p class="max-w-md text-center md:text-left">
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe.
+          Our award-winning creations have transformed businesses through
+          digital experiences that bind to their brand.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="creations">
+    <div class="container mx-auto my-32 max-w-6xl px-6 text-gray-900">
+      <div class="mb-20 flex justify-center md:justify-between">
+        <h2 class="text-center text-4xl uppercase md:text-left md:text-5xl">
+          Our Creations
+        </h2>
+
+        <button class="hidden btn-loop md:block">See All</button>
+      </div>
+
+      <div class="item-container">
+        <div id="item1" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-deep-earth.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-deep-earth-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            Deep Earth
+          </h5>
+        </div>
+
+        <div id="item2" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-night-arcade.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-night-arcade-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            Night Arcade
+          </h5>
+        </div>
+
+        <div id="item3" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-soccer-team.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-soccer-team-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            Soccer Team VR
+          </h5>
+        </div>
+
+        <div id="item4" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-grid.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-grid-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            The Grid
+          </h5>
+        </div>
+
+
+      </div>
+
+      <div class="mt-10 item-container">
+        <div id="0item1" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-from-above.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-from-above-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            From Above VR
+          </h5>
+        </div>
+
+        <div id="0item2" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-pocket-borealis.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-pocket-borealis-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            Pocket Borealis
+          </h5>
+        </div>
+
+        <div id="0item3" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-curiosity.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-curiosity-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            Curiosity
+          </h5>
+        </div>
+
+        <div id="0item4" class="group item">
+          <img src="assets/loopstudio/images/desktop/image-fisheye.jpg" alt="" class="hidden w-full duration-200 group-hover:scale-110 md:block">
+          <img src="assets/loopstudio/images/mobile/image-fisheye-mobile.jpg" alt="" class="w-full md:hidden">
+          <div class="item-gradient"></div>
+          <h5 class="h5-loop">
+            Make It fisheye
+          </h5>
+        </div>
+      </div>
+
+      <div class="mt-10 flex justify-center md:hidden">
+        <button class="w-full btn-loop md:hidden">See All</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black">
+    <div class="container mx-auto max-w-6xl py-10">
+      <div class="mb-8 flex flex-col items-center space-y-6 md:space-y-0 md:flex-row md:items-start md:justify-between">
+        <div class="items-center flex-flex-col space-y-8 md:space-y-4 md:items-start">
+
+          <div class="h-8">
+            <img src="assets/loopstudio/images/logo.svg" alt="" class="w-44 md:ml-3">
+          </div>
+
+          <div id="menuContainer" class="flex flex-col items-center font-bold text-white space-y-4 md:space-y-0 md:space-x-6 md:ml-3 md:flex-row">
+            <div id="item1_" class="h-10 group">
+              <a href="#">About</a>
+              <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+
+            <div id="item2_" class="h-10 group">
+              <a href="#">Careers</a>
+              <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+
+            <div id="item3_" class="h-10 group">
+              <a href="#">Events</a>
+              <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+
+            <div id="item4_" class="h-10 group">
+              <a href="#">Products</a>
+              <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+
+            <div id="item5_" class="h-10 group">
+              <a href="#">Support</a>
+              <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flex flex-col items-start justify-between text-gray-500 space-y-4">
+
+          <!-- icons container -->
+          <div class="mx-auto flex items-center justify-center space-x-4 md:mx-0 md:justify-end">
+            <!-- icon 1 -->
+            <div class="h-8 group">
+              <a href="#">
+                <img src="assets/loopstudio/images/icon-facebook.svg" alt="" class="h-6">
+              </a>
+            </div>
+            <!-- icon 2 -->
+            <div class="h-8 group">
+              <a href="#">
+                <img src="assets/loopstudio/images/icon-twitter.svg" alt="" class="h-6">
+              </a>
+            </div>
+            <!-- icon 3 -->
+            <div class="h-8 group">
+              <a href="#">
+                <img src="assets/loopstudio/images/icon-pinterest.svg" alt="" class="h-6">
+              </a>
+            </div>
+            <!-- icon 4 -->
+            <div class="h-8 group">
+              <a href="#">
+                <img src="assets/loopstudio/images/icon-instagram.svg" alt="" class="h-6">
+              </a>
+            </div>
+          </div>
+
+          <!-- copy -->
+          <div class="font-bold">
+            &copy; 2022 Loopstudios. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

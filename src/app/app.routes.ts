@@ -7,6 +7,7 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ClipboardComponent } from './clipboard/clipboard.component';
+import { LoopstudioComponent } from './loopstudio/loopstudio.component';
 
 export const routes: Routes = [
   // The route 'sandbox/' is already in use, by static pages
@@ -18,5 +19,6 @@ export const routes: Routes = [
   { path: 'login-modal', component: LoginModalComponent },
   { path: 'image-gallery', component: ImageGalleryComponent },
   { path: 'clipboard', component: ClipboardComponent },
+  { path: 'loopstudio', component: LoopstudioComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
