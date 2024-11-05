@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <style>
+      .toggle-checkbox:checked {
+        right: 0;
+        border-color: #68d391;
+      }
+      .toggle-checkbox:checked + .toggle-label {
+        background-color: #68d391;
+      }
+    </style>
+    <title>Dark Mode</title>
+  </head>
+  <body>
+    <!-- By default, you can have your project use whatever mode your OS is using. You can use "dark:{class}". You can also set your config to use a class instead of using your OS mode -->
+    <div
+      class="container mx-auto mt-10 rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:bg-slate-900"
+    >
+      <h3
+        class="text-base font-medium tracking-tight text-slate-900 dark:text-white"
+      >
+        Writes Upside-Down
+      </h3>
+      <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">
+        The Zero Gravity Pen can be used to write in any orientation, including
+        upside-down. It even works in outer space.
+      </p>
+    </div>
+
+    <div
+      class="relative mt-6 mr-2 ml-6 inline-block w-10 select-none align-middle transition duration-200 ease-in"
+    >
+      <input
+        type="checkbox"
+        name="toggle"
+        id="toggle"
+        checked
+        class="absolute block h-6 w-6 cursor-pointer appearance-none rounded-full border-4 bg-white toggle-checkbox"
+      />
+      <label
+        for="toggle"
+        class="block h-6 cursor-pointer overflow-hidden rounded-full bg-gray-300 toggle-label"
+      ></label>
+    </div>
+
+    <script>
+      document.getElementById('toggle').addEventListener('change', function () {
+        if (this.checked) {
+          document.documentElement.classList.add('dark')
+        } else {
+          document.documentElement.classList.remove('dark')
+        }
+      })
+    </script>
+  </body>
+</html>
+
+<!-- Credit for toggle button style
+https://tailwindcomponents.com/component/toggle-switch
+ -->
