@@ -16,4 +16,4 @@ Run Tailwind CLI
 npm run watch
 ```
 
-![Alt text](../../assets/loopstudios/images/loopstudios.png)
+![Alt text](../../assets/loopstudio/images/loopstudios.png)
