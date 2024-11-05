@@ -8,6 +8,8 @@ import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ClipboardComponent } from './clipboard/clipboard.component';
 import { LoopstudioComponent } from './loopstudio/loopstudio.component';
+import { ShortlyComponent } from './shortly/shortly.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 export const routes: Routes = [
   // The route 'sandbox/' is already in use, by static pages
@@ -20,5 +22,7 @@ export const routes: Routes = [
   { path: 'image-gallery', component: ImageGalleryComponent },
   { path: 'clipboard', component: ClipboardComponent },
   { path: 'loopstudio', component: LoopstudioComponent },
+  { path: 'shortly', component: ShortlyComponent },
+  { path: 'testimonial', component: TestimonialComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
