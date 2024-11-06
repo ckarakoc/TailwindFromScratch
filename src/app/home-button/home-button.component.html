@@ -1,0 +1,12 @@
+<div class="m-2 h-72 w-64 rounded-lg border border-red-900 bg-amber-400 shadow-md group">
+  <a [routerLink]="routelink">
+    <div class="h-5/6">
+      <img [src]="assetLink" alt=""
+           class="w-full h-full scale-95 transform object-cover duration-200 group-hover:scale-90 group-hover:rounded-xl"
+      />
+    </div>
+    <div class="h-1/6">
+      <h5 class="text-center text-2xl font-bold tracking-tight text-red-900 group-hover:text-red-700">{{ name }}</h5>
+    </div>
+  </a>
+</div>

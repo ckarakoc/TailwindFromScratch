@@ -10,6 +10,8 @@ import { ClipboardComponent } from './clipboard/clipboard.component';
 import { LoopstudioComponent } from './loopstudio/loopstudio.component';
 import { ShortlyComponent } from './shortly/shortly.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { FyloComponent } from './fylo/fylo.component';
+import { BookmarkComponent } from './bookmark/bookmark.component';
 
 export const routes: Routes = [
   // The route 'sandbox/' is already in use, by static pages
@@ -24,5 +26,7 @@ export const routes: Routes = [
   { path: 'loopstudio', component: LoopstudioComponent },
   { path: 'shortly', component: ShortlyComponent },
   { path: 'testimonial', component: TestimonialComponent },
+  { path: 'fylo', component: FyloComponent },
+  { path: 'bookmark', component: BookmarkComponent },
   { path: '**', component: PageNotFoundComponent }
 ];

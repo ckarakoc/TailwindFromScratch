@@ -1,12 +1,27 @@
-<div class="flex h-full w-full flex-wrap content-center gap-3 bg-amber-600">
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" href="/TailwindFromScratch/sandbox">Sandbox</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/email-subscribe">Email Subscribe</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/pricing-cards">Pricing Cards</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/product-modal">Product Modal</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/login-modal">Login Modal</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/image-gallery">Image Gallery</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/clipboard">Clipboard</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/loopstudio">Loop Studio</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/shortly">Shortly</a>
-  <a class="m-auto border-4 border-red-900 bg-amber-400 px-5 py-1 text-center font-bold text-red-900 hover:bg-amber-300" routerLink="/testimonial">Testimonial</a>
+<div class="flex justify-center h-full w-full flex-wrap content-center gap-3 bg-[linear-gradient(45deg,_orange_35%,_transparent_38%)]">
+
+  <div class="m-2 h-72 w-64 rounded-lg border border-red-900 bg-amber-400 shadow-md group">
+    <a href="/TailwindFromScratch/sandbox">
+      <div class="h-5/6">
+        <img src="assets/404.png" alt=""
+             class="w-full h-full scale-95 transform object-cover duration-200 group-hover:scale-90 group-hover:rounded-xl"
+        />
+      </div>
+      <div class="h-1/6">
+        <h5 class="text-center text-2xl font-bold tracking-tight text-red-900 group-hover:text-red-700">Sandbox</h5>
+      </div>
+    </a>
+  </div>
+
+  <app-home-button [assetLink]="'assets/clipboard/images/clipboard.png'" [name]="'Email Subscribe'" [routelink]="'/email-subscribe'"></app-home-button>
+  <app-home-button [assetLink]="'assets/pricing-cards/images/pricing-cards.png'" [name]="'Pricing Cards'" [routelink]="'/pricing-cards'"></app-home-button>
+  <app-home-button [assetLink]="'assets/product-modal/images/product-modal.png'" [name]="'Product Modal'" [routelink]="'/product-modal'"></app-home-button>
+  <app-home-button [assetLink]="'assets/login-modal/images/login-modal.png'" [name]="'Login Modal'" [routelink]="'/login-modal'"></app-home-button>
+  <app-home-button [assetLink]="'assets/image-gallery/images/image-gallery.png'" [name]="'Image Gallery'" [routelink]="'/image-gallery'"></app-home-button>
+  <app-home-button [assetLink]="'assets/clipboard/images/clipboard.png'" [name]="'Clipboard'" [routelink]="'/clipboard'"></app-home-button>
+  <app-home-button [assetLink]="'assets/loopstudio/images/loopstudios.png'" [name]="'Loop Studio'" [routelink]="'/loopstudio'"></app-home-button>
+  <app-home-button [assetLink]="'assets/shortly/images/shortly.png'" [name]="'Shortly'" [routelink]="'/shortly'"></app-home-button>
+  <app-home-button [assetLink]="'assets/testimonial-grid/images/testimonial-grid.png'" [name]="'Testimonial'" [routelink]="'/testimonial'"></app-home-button>
+  <app-home-button [assetLink]="'assets/fylo/images/fylo.png'" [name]="'Fylo'" [routelink]="'/fylo'"></app-home-button>
+  <app-home-button [assetLink]="'assets/bookmark/images/bookmark.png'" [name]="'Bookmark'" [routelink]="'/bookmark'"></app-home-button>
 </div>
