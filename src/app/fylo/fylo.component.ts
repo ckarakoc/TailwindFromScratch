@@ -1,9 +1,12 @@
 import { AfterViewInit, Component, ElementRef, OnInit, RendererFactory2, ViewChild, ViewEncapsulation } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-fylo',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './fylo.component.html',
   styleUrl: './fylo.component.css'
 })

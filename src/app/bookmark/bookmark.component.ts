@@ -1,10 +1,13 @@
 import { AfterViewInit, Component, ElementRef, HostListener, OnDestroy, OnInit, RendererFactory2, ViewChild, ViewEncapsulation } from '@angular/core';
 import { BreakpointsService } from '../loopstudio/breakpointsService';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-bookmark',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './bookmark.component.html',
   styleUrl: './bookmark.component.css'
 })
