@@ -1,10 +1,13 @@
 import { AfterViewInit, Component, ElementRef, HostListener, OnDestroy, OnInit, RendererFactory2, ViewChild, ViewEncapsulation } from '@angular/core';
 import { BreakpointsService } from './breakpointsService';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-loopstudio',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './loopstudio.component.html',
   styleUrl: './loopstudio.component.css'
 })

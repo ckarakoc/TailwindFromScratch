@@ -1,9 +1,12 @@
 import { Component, OnInit, RendererFactory2, ViewEncapsulation } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-login-modal',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './login-modal.component.html',
   styleUrl: './login-modal.component.css'
 })

@@ -2,15 +2,14 @@
   <div class="my-6 flex items-center justify-between space-x-20">
     <div class="z-30">
       <img #logoImg
-        src="assets/bookmark/images/logo-bookmark.svg" alt="" id="logo" />
+           src="assets/bookmark/images/logo-bookmark.svg" alt="" id="logo" />
     </div>
 
     <div class="hidden items-center uppercase space-x-10 text-grayishBlue0 md:flex">
-      <a href="#features" class="tracking-widest hover:text-softRed0">Features</a>
-      <a href="#download" class="tracking-widest hover:text-softRed0">Download</a>
-      <a href="#faq" class="tracking-widest hover:text-softRed0">FAQ</a>
-      <a href="#"
-         class="rounded-lg border-2 px-8 py-2 text-white shadow-md bg-softRed0 border-softRed0 hover:text-softRed0 hover:bg-white">Login</a>
+      <a [routerLink]="[]" fragment="features" class="tracking-widest hover:text-softRed0">Features</a>
+      <a [routerLink]="[]" fragment="download" class="tracking-widest hover:text-softRed0">Download</a>
+      <a [routerLink]="[]" fragment="faq" class="tracking-widest hover:text-softRed0">FAQ</a>
+      <a [routerLink]="[]" fragment="" class="rounded-lg border-2 px-8 py-2 text-white shadow-md bg-softRed0 border-softRed0 hover:text-softRed0 hover:bg-white">Login</a>
     </div>
     <button #menuBtn
             id="menu-btn"
@@ -25,16 +24,16 @@
        id="menu"
        class="fixed inset-0 z-20 hidden h-full w-full flex-col items-center self-end px-6 py-1 pt-24 pb-4 uppercase tracking-widest text-white opacity-90 m-h-screen divide-y divide-gray-500 bg-veryDarkBlue0">
     <div class="w-full py-3 text-center">
-      <a href="#features" class="block hover:text-softRed0">Features</a>
+      <a [routerLink]="[]" fragment="features" class="block hover:text-softRed0">Features</a>
     </div>
     <div class="w-full py-3 text-center">
-      <a href="#download" class="block hover:text-softRed0">Download</a>
+      <a [routerLink]="[]" fragment="download" class="block hover:text-softRed0">Download</a>
     </div>
     <div class="w-full py-3 text-center">
-      <a href="#faq" class="block hover:text-softRed0">FAQ</a>
+      <a [routerLink]="[]" fragment="faq" class="block hover:text-softRed0">FAQ</a>
     </div>
     <div class="w-full py-3 text-center">
-      <a href="#" class="block hover:text-softRed0">Login</a>
+      <a [routerLink]="[]" fragment="" class="block hover:text-softRed0">Login</a>
     </div>
   </div>
 </nav>
@@ -50,8 +49,8 @@
       </p>
 
       <div class="flex w-full items-center justify-center space-x-4 lg:justify-start">
-        <a href="#" class="rounded border-2 p-4 text-sm font-semibold text-white shadow-md bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white md:text-base">Get It On Chrome</a>
-        <a href="#" class="rounded border-2 border-gray-300 bg-gray-300 p-4 text-sm font-semibold text-black shadow-md hover:bg-white hover:text-gray-600 md:text-base">Get It On Firefox</a>
+        <a [routerLink]="[]" fragment="" class="rounded border-2 p-4 text-sm font-semibold text-white shadow-md bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white md:text-base">Get It On Chrome</a>
+        <a [routerLink]="[]" fragment="" class="rounded border-2 border-gray-300 bg-gray-300 p-4 text-sm font-semibold text-black shadow-md hover:bg-white hover:text-gray-600 md:text-base">Get It On Firefox</a>
       </div>
     </div>
 
@@ -115,7 +114,7 @@
             manage your favourite sites.
           </p>
           <div class="mx-auto md:mx-0">
-            <a href="#"
+            <a [routerLink]="[]" fragment=""
                class="mt-4 rounded-lg border-2 border-white px-6 py-3 font-semibold text-white bg-softBlue0 hover:text-softBlue0 hover:border-softBlue0 hover:border-2 hover:bg-white md:inline-flex">More Info</a>
           </div>
         </div>
@@ -136,7 +135,7 @@
             time at all. No need to trawl through all of your bookmarks.
           </p>
           <div class="mx-auto md:mx-0">
-            <a href="#"
+            <a [routerLink]="[]" fragment=""
                class="mt-4 rounded-lg border-2 border-white px-6 py-3 font-semibold text-white bg-softBlue0 hover:text-softBlue0 hover:border-softBlue0 hover:border-2 hover:bg-white md:inline-flex">More Info</a>
           </div>
         </div>
@@ -156,7 +155,7 @@
             a shareable a link that you can send at the click of a button.
           </p>
           <div class="mx-auto md:mx-0">
-            <a href="#"
+            <a [routerLink]="[]" fragment=""
                class="mt-4 rounded-lg border-2 border-white px-6 py-3 font-semibold text-white bg-softBlue0 hover:text-softBlue0 hover:border-softBlue0 hover:border-2 hover:bg-white md:inline-flex">More Info</a>
           </div>
         </div>
@@ -188,7 +187,7 @@
       <p class="text-gray-400">Minimum Version 62</p>
 
       <div class="bg-repeat-x px-6 pt-6 capitalize bg-dots">
-        <a href="#"
+        <a [routerLink]="[]" fragment=""
            class="block w-full rounded-lg border-2 py-3 text-white duration-200 bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white">Add & Install Extension</a>
       </div>
     </div>
@@ -203,7 +202,7 @@
         <p class="text-gray-400">Minimum Version 55</p>
 
         <div class="bg-repeat-x px-6 pt-6 capitalize bg-dots">
-          <a href="#"
+          <a [routerLink]="[]" fragment=""
              class="block w-full rounded-lg border-2 py-3 text-white duration-200 bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white">Add & Install Extension</a>
         </div>
       </div>
@@ -219,7 +218,7 @@
         <p class="text-gray-400">Minimum Version 46</p>
 
         <div class="bg-repeat-x px-6 pt-6 capitalize bg-dots">
-          <a href="#"
+          <a [routerLink]="[]" fragment=""
              class="block w-full rounded-lg border-2 py-3 text-white duration-200 bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white">Add & Install Extension</a>
         </div>
       </div>
@@ -373,17 +372,17 @@
   <div class="container mx-auto flex flex-col items-center justify-between px-6 space-y-16 md:space-y-0 md:flex-row">
     <div class="flex flex-col items-center justify-between text-lg font-light space-y-8 text-grayishBlue0 md:space-y-0 md:space-x-14 md:flex-row">
       <img src="assets/bookmark/images/logo-bookmark-footer.svg" alt="" class="mb-1" />
-      <a href="#features" class="uppercase hover:text-softRed0">Features</a>
-      <a href="#download" class="uppercase hover:text-softRed0">Download</a>
-      <a href="#faq" class="uppercase hover:text-softRed0">FAQ</a>
+      <a [routerLink]="[]" fragment="features" class="uppercase hover:text-softRed0">Features</a>
+      <a [routerLink]="[]" fragment="download" class="uppercase hover:text-softRed0">Download</a>
+      <a [routerLink]="[]" fragment="faq" class="uppercase hover:text-softRed0">FAQ</a>
     </div>
 
     <!-- Social Container -->
     <div class="flex space-x-10">
-      <a href="#">
+      <a [routerLink]="[]" fragment="">
         <img src="assets/bookmark/images/icon-facebook.svg" alt="" class="h-6 ficon" />
       </a>
-      <a href="#">
+      <a [routerLink]="[]" fragment="">
         <img src="assets/bookmark/images/icon-twitter.svg" alt="" class="h-6 ficon" />
       </a>
     </div>

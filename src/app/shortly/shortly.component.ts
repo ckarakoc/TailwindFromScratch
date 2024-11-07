@@ -1,12 +1,14 @@
 import { AfterViewInit, Component, ElementRef, HostListener, OnDestroy, OnInit, RendererFactory2, ViewChild, ViewEncapsulation } from '@angular/core';
 import { NgStyle } from '@angular/common';
 import { BreakpointsService } from '../loopstudio/breakpointsService';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-shortly',
   standalone: true,
   imports: [
-    NgStyle
+    NgStyle,
+    RouterLink
   ],
   templateUrl: './shortly.component.html',
   styleUrl: './shortly.component.css'

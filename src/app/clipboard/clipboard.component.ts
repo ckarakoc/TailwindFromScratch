@@ -1,9 +1,12 @@
 import { Component, OnInit, RendererFactory2, ViewEncapsulation } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-clipboard',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './clipboard.component.html',
   styleUrl: './clipboard.component.css',
 })
