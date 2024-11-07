@@ -5,8 +5,8 @@
 
     <!-- menu -->
     <div class="top-12 right-10 flex items-center justify-center space-x-4 md:space-x-10 md:absolute">
-      <a href="#features" class="hover:text-accentCyan">Features</a>
-      <a href="#testimonials" class="hover:text-accentCyan">Testimonials</a>
+      <a [routerLink]="[]" fragment="features" class="hover:text-accentCyan">Features</a>
+      <a [routerLink]="[]" fragment="testimonials" class="hover:text-accentCyan">Testimonials</a>
 
       <button #themeToggleBtn
               id="theme-toggle"
