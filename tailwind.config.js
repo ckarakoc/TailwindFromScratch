@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{html,ts}"
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -26,13 +26,18 @@ module.exports = {
         darkBlue3: "hsl(219, 30%, 18%)",
         accentCyan: "hsl(176, 68%, 64%)",
         accentBlue: "hsl(198, 60%, 50%)",
-        lightRed: "hsl(0, 100%, 63%)"
+        lightRed: "hsl(0, 100%, 63%)",
+
+        softBlue0: "hsl(231, 69%, 60%)",
+        softRed0: "hsl(0, 94%, 66%)",
+        grayishBlue0: "hsl(229, 8%, 60%)",
+        veryDarkBlue0: "hsl(229, 31%, 21%)"
       },
       fontFamily: {
         sans: "var(--font-sans)",
         mono: "var(--font-mono)",
         alata: ["Alata"],
-        opensans: ['Open Sans', 'sans-serif'],
+        opensans: ["Open Sans", "sans-serif"]
       },
       spacing: {
         180: "32rem"
@@ -42,6 +47,9 @@ module.exports = {
         "logo-light-mode": "url('assets/fylo/images/logo-light-mode.svg')",
         "curvy-dark-mode": "url('assets/fylo/images/bg-curvy-dark-mode.svg')",
         "curvy-light-mode": "url('assets/fylo/images/bg-curvy-light-mode.svg')"
+      }),
+      backgroundImage2: () => ({
+        dots: "url('assets/bookmark/images/bg-dots.svg')"
       })
     }
   },
