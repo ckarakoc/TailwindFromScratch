@@ -46,9 +46,7 @@ module.exports = {
         "logo-dark-mode": "url('assets/fylo/images/logo-dark-mode.svg')",
         "logo-light-mode": "url('assets/fylo/images/logo-light-mode.svg')",
         "curvy-dark-mode": "url('assets/fylo/images/bg-curvy-dark-mode.svg')",
-        "curvy-light-mode": "url('assets/fylo/images/bg-curvy-light-mode.svg')"
-      }),
-      backgroundImage2: () => ({
+        "curvy-light-mode": "url('assets/fylo/images/bg-curvy-light-mode.svg')",
         dots: "url('assets/bookmark/images/bg-dots.svg')"
       })
     }
