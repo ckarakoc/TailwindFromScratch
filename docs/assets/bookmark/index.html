@@ -18,7 +18,7 @@
   <body class="overflow-x-hidden">
     <nav class="container relative mx-auto p-6">
       <!-- Flex Container For Nav Items -->
-      <div class="flex items-center justify-between space-x-20 my-6">
+      <div class="my-6 flex items-center justify-between space-x-20">
         <!-- Logo -->
         <div class="z-30">
           <img src="images/logo-bookmark.svg" alt="" id="logo" />
@@ -26,26 +26,26 @@
 
         <!-- Menu Items -->
         <div
-          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+          class="hidden items-center uppercase space-x-10 text-grayishBlue0 md:flex"
         >
-          <a href="#features" class="tracking-widest hover:text-softRed"
+          <a href="#features" class="tracking-widest hover:text-softRed0"
             >Features</a
           >
-          <a href="#download" class="tracking-widest hover:text-softRed"
+          <a href="#download" class="tracking-widest hover:text-softRed0"
             >Download</a
           >
-          <a href="#faq" class="tracking-widest hover:text-softRed">FAQ</a>
+          <a href="#faq" class="tracking-widest hover:text-softRed0">FAQ</a>
 
           <a
             href="#"
-            class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white"
+            class="rounded-lg border-2 px-8 py-2 text-white shadow-md bg-softRed0 border-softRed0 hover:text-softRed0 hover:bg-white"
             >Login</a
           >
         </div>
         <!-- Hamburger Button -->
         <button
           id="menu-btn"
-          class="z-30 block md:hidden focus:outline-none hamburger"
+          class="z-30 block hamburger focus:outline-none md:hidden"
         >
           <span class="hamburger-top"></span>
           <span class="hamburger-middle"></span>
@@ -55,19 +55,19 @@
       <!-- Mobile Menu -->
       <div
         id="menu"
-        class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
+        class="fixed inset-0 z-20 hidden h-full w-full flex-col items-center self-end px-6 py-1 pt-24 pb-4 uppercase tracking-widest text-white opacity-90 m-h-screen divide-y divide-gray-500 bg-veryDarkBlue0"
       >
         <div class="w-full py-3 text-center">
-          <a href="#features" class="block hover:text-softRed">Features</a>
+          <a href="#features" class="block hover:text-softRed0">Features</a>
         </div>
         <div class="w-full py-3 text-center">
-          <a href="#download" class="block hover:text-softRed">Download</a>
+          <a href="#download" class="block hover:text-softRed0">Download</a>
         </div>
         <div class="w-full py-3 text-center">
-          <a href="#faq" class="block hover:text-softRed">FAQ</a>
+          <a href="#faq" class="block hover:text-softRed0">FAQ</a>
         </div>
         <div class="w-full py-3 text-center">
-          <a href="#" class="block hover:text-softRed">Login</a>
+          <a href="#" class="block hover:text-softRed0">Login</a>
         </div>
       </div>
     </nav>
@@ -76,17 +76,17 @@
     <section id="hero">
       <!-- Container For Image & Content -->
       <div
-        class="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0"
+        class="container mx-auto flex flex-col-reverse p-6 lg:mb-0 lg:flex-row"
       >
         <!-- Content -->
         <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
           <h1
-            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
+            class="text-center text-3xl font-semibold lg:text-left lg:text-6xl"
           >
             A Simple Bookmark Manager
           </h1>
           <p
-            class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
+            class="mx-auto max-w-md text-center text-lg text-gray-400 lg:mx-0 lg:mt-0 lg:text-left lg:text-2xl"
           >
             A clean and simple interface to organize your favourite websites.
             Open a new browser tab and see your sites load instantly. Try it for
@@ -95,16 +95,16 @@
 
           <!-- Buttons Container -->
           <div
-            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
+            class="flex w-full items-center justify-center space-x-4 lg:justify-start"
           >
             <a
               href="#"
-              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+              class="rounded border-2 p-4 text-sm font-semibold text-white shadow-md bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white md:text-base"
               >Get It On Chrome</a
             >
             <a
               href="#"
-              class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
+              class="rounded border-2 border-gray-300 bg-gray-300 p-4 text-sm font-semibold text-black shadow-md hover:bg-white hover:text-gray-600 md:text-base"
               >Get It On Firefox</a
             >
           </div>
@@ -116,7 +116,7 @@
           <img
             src="images/illustration-hero.svg"
             alt=""
-            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
+            class="relative z-10 overflow-x-visible lg:top-24 xl:top-0"
           />
         </div>
       </div>
@@ -125,8 +125,8 @@
     <!-- Features Heading -->
     <section id="features">
       <div class="container mx-auto mt-16 px-6">
-        <h2 class="mb-6 text-4xl font-semibold text-center">Features</h2>
-        <p class="max-w-md mx-auto text-center text-grayishBlue">
+        <h2 class="mb-6 text-center text-4xl font-semibold">Features</h2>
+        <p class="mx-auto max-w-md text-center text-grayishBlue0">
           Our aim is to make it quick and easy for you to access your favourite
           websites. Your bookmarks sync between your devices so you can access
           them on the go.
@@ -137,25 +137,25 @@
     <!-- Features Tabs -->
     <section id="tabs">
       <!-- Tabs/Panels Container -->
-      <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
+      <div class="container relative mx-auto my-6 mt-12 mb-32 px-6">
         <div class="bg-tabs"></div>
         <!-- Tabs Flex Container -->
         <div
-          class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+          class="mx-auto mb-6 flex max-w-xl flex-col justify-center border-b md:space-x-10 md:flex-row"
         >
           <!-- Tab 1 -->
           <div
-            class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+            class="flex cursor-pointer justify-center border-b text-center text-gray-600 tab hover:text-softRed0 md:w-1/3 md:border-b-0"
             data-target="panel-1"
           >
-            <div class="py-5 border-b-4 border-softRed" data-target="panel-1">
+            <div class="border-b-4 py-5 border-softRed0" data-target="panel-1">
               Simple Bookmarking
             </div>
           </div>
 
           <!-- Tab 2 -->
           <div
-            class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+            class="flex cursor-pointer justify-center border-b text-center text-gray-600 tab hover:text-softRed0 md:w-1/3 md:border-b-0"
             data-target="panel-2"
           >
             <div class="py-5" data-target="panel-2">Speedy Searching</div>
@@ -163,7 +163,7 @@
 
           <!-- Tab 3 -->
           <div
-            class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+            class="flex cursor-pointer justify-center border-b text-center text-gray-600 tab hover:text-softRed0 md:w-1/3 md:border-b-0"
             data-target="panel-3"
           >
             <div class="py-5" data-target="panel-3">Easy Sharing</div>
@@ -174,7 +174,7 @@
         <div id="panels" class="container mx-auto">
           <!-- Panel 1 -->
           <div
-            class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
+            class="flex flex-col py-5 panel panel-1 md:space-x-7 md:flex-row"
           >
             <!-- Panel Image -->
             <div class="flex justify-center md:w-1/2">
@@ -187,11 +187,11 @@
             <!-- Panel Content -->
             <div class="flex flex-col space-y-8 md:w-1/2">
               <h3
-                class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
+                class="mt-32 text-center text-3xl font-semibold md:mt-0 md:text-left"
               >
                 Bookmark in one click
               </h3>
-              <p class="max-w-md text-center text-grayishBlue md:text-left">
+              <p class="max-w-md text-center text-grayishBlue0 md:text-left">
                 Organize your bookmarks however you like. Our simple
                 drag-and-drop interface gives you complete control over how you
                 manage your favourite sites.
@@ -199,7 +199,7 @@
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  class="mt-4 rounded-lg border-2 border-white px-6 py-3 font-semibold text-white bg-softBlue0 hover:text-softBlue0 hover:border-softBlue0 hover:border-2 hover:bg-white md:inline-flex"
                   >More Info</a
                 >
               </div>
@@ -208,7 +208,7 @@
 
           <!-- Panel 2 -->
           <div
-            class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2"
+            class="flex hidden flex-col py-5 panel panel-2 md:space-x-7 md:flex-row"
           >
             <!-- Panel Image -->
             <div class="flex justify-center md:w-1/2">
@@ -221,18 +221,18 @@
             <!-- Panel Content -->
             <div class="flex flex-col space-y-8 md:w-1/2">
               <h3
-                class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left"
+                class="mt-14 text-center text-3xl font-semibold md:mt-0 md:text-left"
               >
                 Intelligent search
               </h3>
-              <p class="max-w-md text-center text-grayishBlue md:text-left">
+              <p class="max-w-md text-center text-grayishBlue0 md:text-left">
                 Our powerful search feature will help you find saved sites in no
                 time at all. No need to trawl through all of your bookmarks.
               </p>
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  class="mt-4 rounded-lg border-2 border-white px-6 py-3 font-semibold text-white bg-softBlue0 hover:text-softBlue0 hover:border-softBlue0 hover:border-2 hover:bg-white md:inline-flex"
                   >More Info</a
                 >
               </div>
@@ -241,7 +241,7 @@
 
           <!-- Panel 3 -->
           <div
-            class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3"
+            class="flex hidden flex-col py-5 panel panel-3 md:space-x-7 md:flex-row"
           >
             <!-- Panel Image -->
             <div class="flex justify-center md:w-1/2">
@@ -254,18 +254,18 @@
             <!-- Panel Content -->
             <div class="flex flex-col space-y-8 md:w-1/2">
               <h3
-                class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left"
+                class="mt-14 text-center text-3xl font-semibold md:mt-0 md:text-left"
               >
                 Share your bookmarks
               </h3>
-              <p class="max-w-md text-center text-grayishBlue md:text-left">
+              <p class="max-w-md text-center text-grayishBlue0 md:text-left">
                 Easily share your bookmarks and collections with others. Create
                 a shareable a link that you can send at the click of a button.
               </p>
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  class="mt-4 rounded-lg border-2 border-white px-6 py-3 font-semibold text-white bg-softBlue0 hover:text-softBlue0 hover:border-softBlue0 hover:border-2 hover:bg-white md:inline-flex"
                   >More Info</a
                 >
               </div>
@@ -278,10 +278,10 @@
     <!-- Download Heading -->
     <section id="download">
       <div class="container mx-auto px-6">
-        <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+        <h2 class="mb-6 text-center text-3xl font-semibold md:text-4xl">
           Download the extension
         </h2>
-        <p class="max-w-lg mx-auto text-center text-grayishBlue">
+        <p class="mx-auto max-w-lg text-center text-grayishBlue0">
           We've got more browsers in the pipeline. Please do let us know if
           you've got a favourite you'd like us to prioritize.
         </p>
@@ -292,11 +292,11 @@
     <section id="download-boxes" class="py-32">
       <!-- Boxes Container -->
       <div
-        class="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row"
+        class="relative mx-auto flex max-w-5xl flex-col items-center px-10 space-y-10 md:space-y-0 md:space-x-7 md:flex-row md:px-6"
       >
         <!-- Box 1 -->
         <div
-          class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/3"
+          class="flex w-full flex-col rounded-lg py-6 text-center shadow-lg space-y-4 md:w-1/3"
         >
           <!-- Image -->
           <div class="flex justify-center">
@@ -307,10 +307,10 @@
           <p class="text-gray-400">Minimum Version 62</p>
 
           <!-- Dots -->
-          <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
+          <div class="bg-repeat-x px-6 pt-6 capitalize bg-dots">
             <a
               href="#"
-              class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+              class="block w-full rounded-lg border-2 py-3 text-white duration-200 bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white"
               >Add & Install Extension</a
             >
           </div>
@@ -319,7 +319,7 @@
         <!-- Box 2 -->
         <div class="w-full md:w-1/3">
           <div
-            class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:mt-8"
+            class="flex w-full flex-col rounded-lg py-6 text-center shadow-lg space-y-4 md:mt-8"
           >
             <!-- Image -->
             <div class="flex justify-center">
@@ -330,10 +330,10 @@
             <p class="text-gray-400">Minimum Version 55</p>
 
             <!-- Dots -->
-            <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
+            <div class="bg-repeat-x px-6 pt-6 capitalize bg-dots">
               <a
                 href="#"
-                class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+                class="block w-full rounded-lg border-2 py-3 text-white duration-200 bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white"
                 >Add & Install Extension</a
               >
             </div>
@@ -343,7 +343,7 @@
         <!-- Box 3 -->
         <div class="w-full md:w-1/3">
           <div
-            class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:mt-16"
+            class="flex w-full flex-col rounded-lg py-6 text-center shadow-lg space-y-4 md:mt-16"
           >
             <!-- Image -->
             <div class="flex justify-center">
@@ -354,10 +354,10 @@
             <p class="text-gray-400">Minimum Version 46</p>
 
             <!-- Dots -->
-            <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
+            <div class="bg-repeat-x px-6 pt-6 capitalize bg-dots">
               <a
                 href="#"
-                class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+                class="block w-full rounded-lg border-2 py-3 text-white duration-200 bg-softBlue0 border-softBlue0 hover:text-softBlue0 hover:bg-white"
                 >Add & Install Extension</a
               >
             </div>
@@ -369,10 +369,10 @@
     <!-- FAQ Heading -->
     <section id="faq">
       <div class="container mx-auto">
-        <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+        <h2 class="mb-6 text-center text-3xl font-semibold md:text-4xl">
           Frequently Asked Questions
         </h2>
-        <p class="max-w-lg px-6 mx-auto text-center text-graishBlue">
+        <p class="mx-auto max-w-lg px-6 text-center text-graishBlue">
           Here are some of our FAQs. If you have any other questions you'd like
           answered please feel free to email us.
         </p>
@@ -382,14 +382,14 @@
     <!-- FAQ Accordion -->
     <section id="faq-accordion">
       <!-- Main Container -->
-      <div class="container mx-auto px-6 mb-32">
+      <div class="container mx-auto mb-32 px-6">
         <!-- Accordion Container -->
-        <div class="max-w-2xl m-8 mx-auto overflow-hidden">
+        <div class="m-8 mx-auto max-w-2xl overflow-hidden">
           <!-- Tab 1 -->
-          <div class="py-1 border-b outline-none group" tabindex="1">
+          <div class="border-b py-1 outline-none group" tabindex="1">
             <!-- Tab Flex Container -->
             <div
-              class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease"
+              class="flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500 group ease"
             >
               <!-- Tab Title -->
               <div
@@ -414,7 +414,7 @@
 
             <!-- Tab Inner Content -->
             <div
-              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
+              class="max-h-0 overflow-hidden transition duration-500 ease group-focus:max-h-screen"
             >
               <p class="py-2 text-justify text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
@@ -426,10 +426,10 @@
           </div>
 
           <!-- Tab 2 -->
-          <div class="py-1 border-b outline-none group" tabindex="2">
+          <div class="border-b py-1 outline-none group" tabindex="2">
             <!-- Tab Flex Container -->
             <div
-              class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease"
+              class="flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500 group ease"
             >
               <!-- Tab Title -->
               <div
@@ -454,7 +454,7 @@
 
             <!-- Tab Inner Content -->
             <div
-              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
+              class="max-h-0 overflow-hidden transition duration-500 ease group-focus:max-h-screen"
             >
               <p class="py-2 text-justify text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
@@ -466,10 +466,10 @@
           </div>
 
           <!-- Tab 3 -->
-          <div class="py-1 border-b outline-none group" tabindex="3">
+          <div class="border-b py-1 outline-none group" tabindex="3">
             <!-- Tab Flex Container -->
             <div
-              class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease"
+              class="flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500 group ease"
             >
               <!-- Tab Title -->
               <div
@@ -494,7 +494,7 @@
 
             <!-- Tab Inner Content -->
             <div
-              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
+              class="max-h-0 overflow-hidden transition duration-500 ease group-focus:max-h-screen"
             >
               <p class="py-2 text-justify text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
@@ -506,10 +506,10 @@
           </div>
 
           <!-- Tab 4 -->
-          <div class="py-1 border-b outline-none group" tabindex="4">
+          <div class="border-b py-1 outline-none group" tabindex="4">
             <!-- Tab Flex Container -->
             <div
-              class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease"
+              class="flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500 group ease"
             >
               <!-- Tab Title -->
               <div
@@ -534,7 +534,7 @@
 
             <!-- Tab Inner Content -->
             <div
-              class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
+              class="max-h-0 overflow-hidden transition duration-500 ease group-focus:max-h-screen"
             >
               <p class="py-2 text-justify text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
@@ -549,37 +549,37 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section id="newsletter" class="bg-softBlue">
+    <section id="newsletter" class="bg-softBlue0">
       <!-- Main Container -->
-      <div class="max-w-lg mx-auto py-24">
+      <div class="mx-auto max-w-lg py-24">
         <p
-          class="mb-6 text-lg tracking-widest text-center text-white uppercase"
+          class="mb-6 text-center text-lg uppercase tracking-widest text-white"
         >
           35,000+ Already Joined
         </p>
         <h2
-          class="px-3 mb-6 text-3xl font-semibold text-center text-white md:text-4xl"
+          class="mb-6 px-3 text-center text-3xl font-semibold text-white md:text-4xl"
         >
           Stay up-to-date with what we're doing
         </h2>
 
         <!-- Form -->
         <form
-          class="flex flex-col items-start justify-center max-w-2xl mx-auto space-y-6 text-base px-6 md:flex-row md:space-y-0 md:space-x-4 md:px-0"
+          class="mx-auto flex max-w-2xl flex-col items-start justify-center px-6 text-base space-y-6 md:space-y-0 md:space-x-4 md:flex-row md:px-0"
         >
           <!-- Input & Button Container -->
           <div
-            class="flex flex-col justify-between items-center mx-auto md:flex-row md:mx-0"
+            class="mx-auto flex flex-col items-center justify-between md:mx-0 md:flex-row"
           >
             <input
               type="text"
-              class="flex-1 px-6 pt-3 pb-2 mb-4 rounded-lg border-1 border-white focus:outline-none md:mr-3 md:mb-0"
+              class="mb-4 flex-1 rounded-lg border-white px-6 pt-3 pb-2 border-1 focus:outline-none md:mr-3 md:mb-0"
               placeholder="Enter your email address"
             />
 
             <input
               type="submit"
-              class="inline-flex px-6 py-3 font-semibold text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none bg-softRed hover:opacity-90"
+              class="inline-flex transform cursor-pointer rounded-lg px-6 py-3 text-center font-semibold text-white duration-200 bg-softRed0 hover:opacity-90 focus:outline-none"
               value="Contact Us"
             />
           </div>
@@ -588,20 +588,20 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-16 bg-veryDarkBlue">
+    <footer class="py-16 bg-veryDarkBlue0">
       <!-- Footer Flex Container -->
       <div
-        class="container flex flex-col items-center justify-between mx-auto space-y-16 px-6 md:flex-row md:space-y-0"
+        class="container mx-auto flex flex-col items-center justify-between px-6 space-y-16 md:space-y-0 md:flex-row"
       >
         <!-- Logo/Menu Container -->
         <div
-          class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue"
+          class="flex flex-col items-center justify-between text-lg font-light space-y-8 text-grayishBlue0 md:space-y-0 md:space-x-14 md:flex-row"
         >
           <img src="images/logo-bookmark-footer.svg" alt="" class="mb-1" />
 
-          <a href="#features" class="uppercase hover:text-softRed">Features</a>
-          <a href="#download" class="uppercase hover:text-softRed">Download</a>
-          <a href="#faq" class="uppercase hover:text-softRed">FAQ</a>
+          <a href="#features" class="uppercase hover:text-softRed0">Features</a>
+          <a href="#download" class="uppercase hover:text-softRed0">Download</a>
+          <a href="#faq" class="uppercase hover:text-softRed0">FAQ</a>
         </div>
 
         <!-- Social Container -->
